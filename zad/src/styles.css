@@ -1,0 +1,85 @@
+/* نمط تطبيق زاد */
+.root {
+    -fx-font-family: "Segoe UI", "Noto Sans Arabic", sans-serif;
+    -fx-font-size: 14px;
+    -fx-background-color: #f4f6f8;
+}
+
+.sidebar {
+    -fx-background-color: linear-gradient(to bottom, #1b5e20, #2e7d32);
+    -fx-padding: 0;
+}
+
+.nav-item {
+    -fx-text-fill: #e8f5e9;
+    -fx-cursor: hand;
+    -fx-border-width: 0 4 0 0;
+    -fx-border-color: transparent;
+}
+
+.nav-item:hover {
+    -fx-background-color: rgba(255,255,255,0.12);
+}
+
+.nav-active {
+    -fx-background-color: rgba(255,255,255,0.2);
+    -fx-border-color: #ffeb3b;
+    -fx-font-weight: bold;
+}
+
+.page-title {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1b5e20;
+}
+
+.card {
+    -fx-background-color: white;
+    -fx-background-radius: 12;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0, 0, 3);
+}
+
+.card-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+.content-pane {
+    -fx-background-color: #f4f6f8;
+}
+
+.table-view {
+    -fx-background-color: white;
+    -fx-background-radius: 8;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.08), 8, 0, 0, 2);
+}
+
+.table-view .column-header {
+    -fx-background-color: #e8f5e9;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #1b5e20;
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-background-color: #eceff1;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+    -fx-padding: 6 12;
+}
+
+.button:hover {
+    -fx-background-color: #cfd8dc;
+}
+
+.text-field, .combo-box, .date-picker, .text-area {
+    -fx-background-radius: 6;
+}
+
+.titled-pane > .title {
+    -fx-background-color: #e8f5e9;
+    -fx-text-fill: #1b5e20;
+}
